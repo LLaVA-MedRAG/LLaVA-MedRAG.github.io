@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react-swc'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/LLaVA-MedRAG.github.io/',
+  base: '/',  // Organization repos use root path
   server: {
     host: '0.0.0.0', // Bind to all network interfaces
     port: 5173,      // Your port

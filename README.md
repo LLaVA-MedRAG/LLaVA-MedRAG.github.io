@@ -7,7 +7,7 @@ A simple medical image analysis chatbot interface for the LLaVA-Med custom RAG i
 
 ## Live Demo
 
-[https://LLaVA-MedRAG.github.io/](https://LLaVA-MedRAG.github.io/)
+[https://llava-medrag.github.io/](https://llava-medrag.github.io/)
 
 ## Quick Start
 
@@ -19,7 +19,7 @@ A simple medical image analysis chatbot interface for the LLaVA-Med custom RAG i
 
 ```bash
 # Clone the repository
-git clone https://github.com/HasithaGallella/LLaVA-MedRAG.github.io.git
+git clone https://github.com/LLaVA-MedRAG/LLaVA-MedRAG.github.io.git
 cd LLaVA-MedRAG.github.io
 
 # Install dependencies

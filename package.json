@@ -3,7 +3,11 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://hasitagallella.github.io/LLaVA-MedRAG.github.io/",
+  "homepage": "https://llava-medrag.github.io/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LLaVA-MedRAG/LLaVA-MedRAG.github.io.git"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

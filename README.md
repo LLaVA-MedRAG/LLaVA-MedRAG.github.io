@@ -7,7 +7,7 @@ A simple medical image analysis chatbot interface for the LLaVA-Med custom RAG i
 
 ## Live Demo
 
-[https://hasitagallella.github.io/LLaVA-MedRAG.github.io/](https://hasitagallella.github.io/LLaVA-MedRAG.github.io/)
+[https://LLaVA-MedRAG.github.io/](https://LLaVA-MedRAG.github.io/)
 
 ## Quick Start
 

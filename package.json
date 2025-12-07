@@ -14,7 +14,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist -r https://github.com/LLaVA-MedRAG/LLaVA-MedRAG.github.io.git"
   },
   "dependencies": {
     "react": "^19.2.0",

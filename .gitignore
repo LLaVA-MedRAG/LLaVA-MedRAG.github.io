@@ -1,3 +1,9 @@
+# My folders:
+logs/*
+!logs/.gitkeep
+
+cert/*
+
 # Logs
 logs
 *.log

@@ -69,7 +69,7 @@ function App() {
   useEffect(() => {
     const checkBackend = async () => {
       try {
-        const response = await fetch('http://localhost:8000/status');
+        const response = await fetch('https://192.248.10.121:8000/status');
         setIsOnline(response.ok);
       } catch {
         setIsOnline(false);
@@ -121,7 +121,7 @@ function App() {
 
     try {
       // Send to FastAPI backend
-      const response = await fetch('http://localhost:8000/chat', {
+      const response = await fetch('https://192.248.10.121:8000/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(requestBody)

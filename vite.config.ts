@@ -8,6 +8,10 @@ export default defineConfig({
   server: {
     host: '0.0.0.0', // Bind to all network interfaces
     port: 5173,      // Your port
-    strictPort: true // Fail if port is already in use
+    strictPort: true, // Fail if port is already in use
+    hmr: {
+      protocol: 'ws',
+      host: 'localhost'
+    }
   }
 })
